@@ -84,7 +84,7 @@ module.exports = class Upload {
     });
     return p;
   }
-  getReadStream(remoteUrl) {
+  getReadStream(remoteUrl,options) {
     // getFiles
     return new Promise((resolve, reject) => {
       tmp.dir((err, dirPath, cleanupCallback) => {
@@ -97,7 +97,7 @@ module.exports = class Upload {
             return resolve2();
           });
         };
-        download(remoteUrl, dirPath)
+        download(remoteUrl, dirPath,options)
           .then(result => {
             this.cleanCallback = () => {
               return fsExtra.remove(result.filepath).then(() => {

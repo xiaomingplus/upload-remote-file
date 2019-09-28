@@ -36,3 +36,15 @@ upload.request({
 ```
 
 The other options is same as <https://github.com/request/request-promise-native>
+
+## API
+
+### upload.request(options)
+
+formData value can be `upload.getReadStream()`
+
+The other options are same as <https://github.com/request/request-promise-native>
+
+### upload.getReadStream(url,options)
+
+options are same as <https://github.com/sindresorhus/got#options>

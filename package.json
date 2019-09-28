@@ -1,6 +1,6 @@
 {
   "name": "upload-remote-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodejs upload remote file",
   "main": "index.js",
   "repository": "https://github.com/xiaomingplus/upload-remote-file",
