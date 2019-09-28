@@ -1,0 +1,17 @@
+{
+  "name": "upload-remote-file",
+  "version": "1.0.0",
+  "description": "nodejs upload remote file",
+  "main": "index.js",
+  "repository": "https://github.com/xiaomingplus/upload-remote-file",
+  "author": "xiaomingplus",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "fs-extra": "^8.1.0",
+    "node-save-file": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "tmp": "^0.1.0"
+  }
+}
